@@ -1,0 +1,19 @@
+for i in range(1,5):
+    for space in range(4-i):
+        print(" ",end="")
+    for j in range(1,2*i):
+        if j%2==0:
+            print("_",end="")
+        else:
+            print("*",end="")
+    print()
+
+for i in range(3,0,-1):
+    for space in range(4-i):
+        print(" ",end="")
+    for j in range(1,2*i):
+        if j%2==0:
+            print("_",end="")
+        else:
+            print("*",end="")
+    print()

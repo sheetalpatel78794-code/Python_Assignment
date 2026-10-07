@@ -1,0 +1,14 @@
+arr = [3,1,7,2,8]
+
+k = int(input("Enter a number:"))
+for i in range(len(arr)):
+   for j in range(i+1,len(arr)):
+        if arr[i]>arr[j]:
+            arr[i],arr[j] =arr[j],arr[i]
+            
+print(arr)
+print(arr[k-1])
+print(arr[-k])
+
+
+
